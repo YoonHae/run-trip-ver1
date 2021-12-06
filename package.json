@@ -1,0 +1,38 @@
+{
+  "name": "run-trip",
+  "version": "1.0.0",
+  "description": "toy project",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoonHae/run-trip.git"
+  },
+  "keywords": [
+    "toy-project",
+    "nodejs",
+    "express"
+  ],
+  "author": "yoonhae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoonHae/run-trip/issues"
+  },
+  "homepage": "https://github.com/YoonHae/run-trip#readme",
+  "dependencies": {
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.2",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "pbkdf2-password": "^1.2.1",
+    "pug": "^3.0.2",
+    "redis": "^3.0.0"
+  }
+}
